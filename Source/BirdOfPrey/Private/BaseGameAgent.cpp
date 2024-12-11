@@ -6,9 +6,61 @@
 // Sets default values
 ABaseGameAgent::ABaseGameAgent()
 {
- 	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	// Set this pawn to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
+}
 
+void ABaseGameAgent::ChangeWeaponType()
+{
+}
+
+void ABaseGameAgent::GetWeaponSpawnTransform()
+{
+}
+
+void ABaseGameAgent::SpawnDefaultWeapon()
+{
+}
+
+void ABaseGameAgent::StartFire()
+{
+}
+
+void ABaseGameAgent::StopFire()
+{
+}
+
+
+void ABaseGameAgent::IsAlive()
+{
+}
+
+void ABaseGameAgent::Died()
+{
+}
+
+void ABaseGameAgent::PlayHitEffects()
+{
+}
+
+void ABaseGameAgent::CleanUp()
+{
+}
+
+void ABaseGameAgent::ApplyAgentInfo()
+{
+}
+
+void ABaseGameAgent::AimAt()
+{
+}
+
+void ABaseGameAgent::PlayDeathEffects()
+{
+}
+
+void ABaseGameAgent::CheckForOutOfBounds()
+{
 }
 
 // Called when the game starts or when spawned
